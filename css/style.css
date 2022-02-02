@@ -9,11 +9,14 @@
 
 .btn-group {
     display: inline;
+    margin-left: 15px;
 }
 
 .bar h1 {
     display: inline;
     font-size: 18px;
+    margin-right: 5px;
+    margin-left: 50px;
 }
 
 .container {
@@ -38,6 +41,7 @@ h3 {
 
 .card {
     border-radius: 25px;
+    overflow: hidden;
 }
 
 .form-check-label {
@@ -76,8 +80,5 @@ h3 {
 .card-footer {
     font-size: 10px;
     margin-top: 0.25rem;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-
 }
 
