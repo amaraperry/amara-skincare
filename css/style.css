@@ -7,6 +7,17 @@
     color: palevioletred;
 }
 
+.container {
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+.row {
+    padding-left: 60px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
 hr {
     margin-top: 3px;
 }
@@ -26,11 +37,16 @@ h3 {
 
 .sidebar {
     width: 20%;
-    padding: 40px;
+    padding-top: 40px;
+    padding-left: 0px;
+    margin-left: 0px;
     float: left;
     border-radius: 25px;
 }
 
+.badge {
+    color: grey;
+}
 
 .card-text-brand {
     font-size: 16px;
@@ -51,4 +67,8 @@ h3 {
 .card-footer {
     font-size: 10px;
     margin-top: 0.25rem;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
 }
+
