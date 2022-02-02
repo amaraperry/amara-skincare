@@ -7,6 +7,15 @@
     color: palevioletred;
 }
 
+.btn-group {
+    display: inline;
+}
+
+.bar h1 {
+    display: inline;
+    font-size: 18px;
+}
+
 .container {
     margin-right: 60px;
     margin-top: 30px;
