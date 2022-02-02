@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+.filter-title {
+    font-size: 17px;
+    color: palevioletred;
+}
+
+hr {
+    margin-top: 3px;
+}
+
+h3 {
+    font-size: 15px;
+    margin-top: 1.25rem;
+}
+
+.card {
+    border-radius: 25px;
+}
+
+.form-check-label {
+    font-size: 12px;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 40px;
+    float: left;
+    border-radius: 25px;
+}
+
+
+.card-text-brand {
+    font-size: 16px;
+    color: palevioletred;
+}
+
+.card-text-title {
+    font-size: 13px;
+    margin-bottom: 1px;
+}
+
+.card-text-category {
+    font-size: 12px;
+    margin-top: 2px;
+    color: grey;
+}
+
+.card-footer {
+    font-size: 10px;
+    margin-top: 0.25rem;
+}
