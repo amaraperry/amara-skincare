@@ -1,0 +1,195 @@
+<!-- Compare Page: 
+      * Comparison search side by side (ingredients, type, tags, etc.) 
+      * Add products from there to wishlist
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Rachel">
+  <meta name="description" content="product comparison tool">
+  <title>Compare Page</title>
+  <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lora&family=Nunito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/product-style.css">
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#"><img src="./img/logo.png" height="40px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="quiz.html">Quiz <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="quizresults.html">Quiz Results</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="products.html">Products <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="productcompare.html">Compare <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Wishlist <span class="sr-only"></span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="row">
+      <header>
+        <h1>Product Comparison</h1>
+      </header>
+    </div>
+
+    <!-- Comparison table tool -->
+    <div class="row">
+      <table class="table table-hover table-bordered align-middle">
+        <thead>
+          <tr class="text-center">
+            <th class="align-middle" scope="col">
+              <button class="btn"><i class="bi bi-plus-circle"></i></button>
+            </th>
+
+            <th class="align-top" scope="col">
+              <div>
+                <input class="form-control" list="datalistOptions1"
+                  placeholder="Fresh Lotus Youth Preserve Moisturizer">
+                <datalist id="datalistOptions1">
+                  <option value="Fresh Lotus Youth Preserve Eye Cream">
+                  <option value="Fresh Lotus Youth Preserve Moisturizer">
+                  <option value="Fresh Lotus Youth Preserve Rescue Mask">
+                </datalist>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <img src="img/fresh.png" class="img-fluid" alt="The Inkey List Retinol, an Allure 2021 winner">
+                  </div>
+                  <div class="col-12">
+                    <p>Fresh Lotus Youth Preserve</p>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-success" type="button">Add to Wishlist</button>
+                  </div>
+                </div>
+              </div>
+            </th>
+
+            <th class="align-top" scope="col">
+              <div>
+                <input class="form-control" list="datalistOptions2"
+                  placeholder="The Inkey List Retinol Anti-Aging Serum">
+                <datalist id="datalistOptions2">
+                  <option value="The Inkey List Retinol Anti-Aging Serum">
+                  <option value="The Inkey List Retinol Eye Cream">
+                </datalist>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <img src="img/inkey.png" class="img-fluid" alt="The Inkey List Retinol, an Allure 2021 winner">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <p>The InkeyList Retinol Serum</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <button class="btn btn-success" type="button">Add to Wishlist</button>
+                  </div>
+                </div>
+              </div>
+            </th>
+          </tr>
+        </thead>
+
+        <!-- Comparison data below table head-->
+        <tbody>
+          <tr>
+            <th scope="row"><i class="bi bi-heart"></i>Skin Type</th>
+            <td>Dry, Combination, Normal</td>
+            <td>Dry, Combination, Normal, Oily</td>
+          </tr>
+          <tr>
+            <th scope="row"><i class="bi bi-patch-exclamation"></i>Skin Concern</th>
+            <td>
+              <span class="badge rounded-pill bg-light text-dark same">Aging</span>
+              <span class="badge rounded-pill bg-light text-dark diff1">Dehydrated Skin</span>
+            </td>
+            <td>
+              <span class="badge rounded-pill bg-light text-dark same">Aging</span>
+              <span class="badge rounded-pill bg-light text-dark diff2">Hyperpigmentation</span>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row"><i class="bi bi-star"></i>Skin Goals</th>
+            <td class="align-top"><span class="badge rounded-pill bg-light text-dark diff1">Hydration</span></td>
+            <td>
+              <span class="badge rounded-pill bg-light text-dark diff2">Even Tone</span>
+              <span class="badge rounded-pill bg-light text-dark diff2">Minimize Redness</span>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row"><i class="bi bi-droplet"></i>Ingredient Preferences</th>
+            <td>
+              <span class="badge rounded-pill bg-light text-dark same">Paraben-free</span>
+              <span class="badge rounded-pill bg-light text-dark same">Fragrance-free</span>
+              <span class="badge rounded-pill bg-light text-dark diff1">Sulfate-free</span>
+            </td>
+            <td class="align-top">
+              <span class="badge rounded-pill bg-light text-dark same">Paraben-free</span>
+              <span class="badge rounded-pill bg-light text-dark same">Fragrance-free</span>
+          </tr>
+          <tr>
+            <th scope="row"><i class="bi bi-currency-dollar"></i>Price</th>
+            <td>$52</td>
+            <td>$18</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <p class="footer-contact">Contact Us</p>
+      <p><a href="mailto:skincare@honeydew.com"><span class="material-icons">email</span> skincare@honeydew.com</a>
+      </p>
+      <p><a href="tel:206-765-4321"><span class="material-icons">phone</span> 206-765-4321</a></p>
+      <p>&copy; Honeydew 2022</p>
+    </div>
+  </footer>
+</body>
+
+</html>

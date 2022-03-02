@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  box-sizing: border-box;
+}
+
+/** Misc. **/
+.page-header {
+  font-size: 18px;
+  font-family: "Lora", "Nunito", "Inter", sans-serif;
+  display: inline;
+  color: #d68c45;
+}
+
+body {
+  font-family: "Lora", serif;
+}
+
+h1 {
+  margin-top: .75em;
+}
+
+header {
+  margin-top: 20px;
+}
+
+/** Card content **/
+.card {
+  border-radius: 25px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.card-text-brand {
+  font-size: 16px;
+  color: #d68c45;
+  font-family: "Lora", "Nunito", "Inter", sans-serif;
+}
+
+.card-text-title {
+  font-size: 13px;
+  margin-bottom: 1px;
+  font-family: "Nunito", "Inter", sans-serif;
+}
+
+.card-text-category {
+  font-size: 12px;
+  margin-top: 2px;
+  color:#646f58;
+  font-family: "Inter", sans-serif;
+}
+
+.card-text-price {
+  font-family: "Nunito", "Inter", sans-serif;
+  font-size: 13px;
+}
+
+.card-footer {
+  margin-top: 0.25rem;
+}
+
+.badge {
+  color: white;
+  font-weight: 1;
+  margin: 2px;
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+  border: 4px solid #FFC9B9;
+}
+
+.btn-group {
+  display: inline;
+  margin-left: 15px;
+  font-family: "Nunito", "Inter", sans-serif;
+}
+
+.wishlist {
+  font-size: 13px;
+  font-family: "Nunito", "Inter", sans-serif;
+}
+
+/** Quiz results content **/
+.step-text {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #fefee3;
+  padding: 4px;
+  background-color: #d68c45;
+}
+
+.quiz-box{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.step1, .step2, .step3 {
+    margin-bottom: 20px;
+}
+
+.step4 {
+    margin-bottom: 30px;
+}
+
+.results-text {
+  font-size: 12px;
+  font-family: "Nunito", "Inter", sans-serif;
+  color: grey;
+}
+
+.routine-step {
+  font-size: 14px;
+  font-family: "Lora", "Nunito", "Inter", sans-serif;
+  margin-top: 2px;
+  text-align: center;
+  font-weight: 1;
+  color: #504b3a;
+}
+
+/** product page: filter**/
+.accordion-button {
+background: #FFC9B9;
+padding: 10px;
+font-size: 15px;
+border-radius: 5px;
+}
+
+.accordion {
+margin-top: 5px;
+border: 1px solid #FFC9B9;
+border-radius: 5px;
+}
+
+.form-select {
+margin-top: 10px;
+}
+
+.sidebar {
+display: none;
+visibility: hidden;
+}
+
+.filter-title {
+  font-size: 17px;
+  color: #646f58;
+  font-family: "Nunito", "Inter", sans-serif;
+}
+
+.form-check-label {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+}
+
+.sidebar h3, .category {
+  font-family: "Nunito", "Inter", sans-serif;
+  font-size: 14px;
+  margin-top: 1rem;
+
+}
+
+.sidebar {
+  width: 20%;
+  padding-top: 40px;
+  float: left;
+  border-radius: 25px;
+}
+
+/** Products page content **/
+
+.citation {
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+  color: grey;
+}
+/*styling for quiz stuff*/
+.start-quiz {
+font-size: 12px;
+}
+
+.submit {
+  display: block;
+  margin-top: 20px;
+}
+
+/* */
+/* option buttons in quiz*/
+.qb{
+  background-color: #504b3a;
+  font-family: "Nunito", "Inter", sans-serif;
+  font-size: 18px;
+}
+
+/* quiz questions*/
+.question{
+  font-family: "Nunito", "Inter", sans-serif;
+  background-color: #FFC9B9;
+  font-size: 20px;
+  margin: 2rem;
+}
+
+/* nav bar*/
+nav{
+  background-color: #d68c45;
+  font-family: "Lora", "Nunito", "Inter", sans-serif;
+  padding: 2rem;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.quizStarter{
+  background-color: #ffc9b9;
+  padding: 5rem;
+  text-align: center;
+  
+}
+
+.navbar-light .navbar-brand {
+  color: #fefee3;
+  font-style: oblique;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fefee3;
+  font-size: 13px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+/** compare page**/
+th:first-child {
+  background-color: white;
+} 
+
+thead {
+  background-color: #d68c45;
+}
+
+td:first-child {
+  background-color: #FFC9B9;
+}
+
+.btn {
+  background-color: #646f58;
+  font-size: .75em;
+}
+
+.bi {
+  margin-right: .5em;
+}
+
+.bi-plus-circle {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 0em;
+}
+
+.same{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.diff1 {
+  border: 2px solid #FFC9B9;
+  border-radius: 5px;
+}
+
+.diff2 {
+  border: 2px solid #d68c45;
+  border-radius: 5px;
+}
+
+.img-fluid {
+  margin-top: 25px;
+}
+
+table {
+  table-layout: fixed;
+}
+
+/* homepage header */
+.homepage-header {
+font-family: "Lora", sans-serif;
+color: #504B3A;
+padding-top: 10rem;
+padding-bottom: 10rem;
+background-image: url("/public/img/banner.jpeg");
+background-size: cover;
+background-position: center;
+margin-bottom: 3rem;
+}
+.homepage-h1 {
+font-weight: bolder;
+}
+
+/* homepage content styling */
+.homepage-a {
+text-decoration: none;
+}
+
+.HP-main {
+  text-align: center;
+}
+
+/* each steps paddings */
+.paddings {
+padding: 3rem 3rem;
+}
+
+.homepage-img {
+border-radius: 20px;
+max-height: 200px;
+max-width: 500px;
+}
+
+.paddings h2 {
+color: #646f58;
+text-align: center;
+padding-bottom: 2rem;
+font-family: "Lora", serif;
+}
+
+.paddings h3, .paddings p {
+color: #504B3A;
+font-family: "Nunito", sans-serif;
+}
+
+.paddings h3 {
+font-weight: bolder;
+
+}
+
+/* footer */
+footer {
+padding: 4rem;
+background-color: #FEFEE3;
+font-size: 14px;
+}
+
+footer a, footer p {
+color: #504B3A;
+font-family: "Nunito", sans-serif;
+}
+
+.footer-contact {
+font-weight: bolder;
+font-size: 32px;
+}
+
+footer a {
+text-decoration: none;
+}
+
+footer a:hover, footer a:focus, footer a:active {
+color: #646f58;
+border-bottom: 0.2rem solid #646f58;
+transition: color .25s ease-out;
+}
+
+/** media queries**/
+
+@media (min-width: 768px) {
+  h1 {
+      font-size: 2rem;
+  }
+
+  h2 {
+  font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  main .form.text-center {
+    margin-top: 2rem;
+  }
+
+  .card-text-brand {
+    font-size: 18px;
+}
+
+.card-text-title {
+    font-size: 15px;
+}
+
+.card-text-category {
+    font-size: 14px;
+}
+
+.card-text-price {
+    font-size: 14px;
+}
+
+.wishlist {
+  font-size: 13px;
+}
+
+.form-check-label {
+  font-size: 0.9rem;
+}
+
+.category {
+  font-size: 1.1rem;
+}
+
+.footer-contact {
+  font-size: 34px;
+}
+
+footer {
+  font-size: 16px;
+}
+
+.badge {
+  font-size: 12px;
+}
+
+.page-header {
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 14px;
+}
+
+.check-container {
+  display: flex;
+}
+
+.submit {
+  display: block;
+}
+
+.diff1 {
+  border: 3px solid #FFC9B9;
+}
+
+.diff2 {
+  border: 3px solid #d68c45;
+}
+
+.img-fluid {
+  margin-top: 25px;
+  max-width: 30%;
+}
+
+/* quiz questions*/
+.question{
+  font-family: "Nunito", "Inter", sans-serif;
+  font-size: 40px;
+  margin: 2rem;
+  background-color: #FFC9B9;
+}
+
+}
+
+
+
+@media (min-width: 992px) {
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.start-quiz {
+  font-size: 15px;
+}
+
+.qb {
+  font-size: 22px;
+}
+
+.check-container {
+  display: flex;
+}
+
+.card-text-brand {
+  font-size: 18px;
+}
+
+.card-text-title {
+  font-size: 15px;
+}
+
+.card-text-category {
+  font-size: 14px;
+}
+
+.card-text-price {
+  font-size: 14px;
+}
+
+.wishlist {
+  font-size: 13px;
+}
+
+.form-check-label {
+  font-size: 0.9rem;
+}
+
+.category {
+  font-size: 1.1rem;
+}
+
+.footer-contact {
+  font-size: 36px;
+}
+
+footer {
+  font-size: 18px;
+}
+
+.badge {
+  font-size: 14px;
+}
+
+.page-header {
+  font-size: 22px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 15px;
+}
+
+.diff1 {
+  border: 4px solid #FFC9B9;
+}
+
+.diff2 {
+  border: 4px solid #d68c45;
+}
+/* quiz questions*/
+.question{
+  font-family: "Nunito", "Inter", sans-serif;
+  font-size: 40px;
+  margin: 2rem;
+  background-color: #FFC9B9;
+}
+
+}

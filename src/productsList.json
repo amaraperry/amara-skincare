@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "name": "No Shade Sunscreen Oil SPF 30",
+        "brand": "Melé",
+        "price": 24,
+        "type": "suncare",
+        "treatment": "facial",
+        "skin": ["dry", "combination", "mature"],
+        "other": ["paraben-free", "fragrance-free"],
+        "img": "img/mele.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Equilibrium Restoring Essence",
+        "brand": "Hourglass Cosmetics",
+        "price": 65,
+        "type": "toner",
+        "treatment": "facial",
+        "skin": ["dry", "combination", "oily"],
+        "other": ["cruelty-free", "paraben-free"],
+        "img": "img/hourglass.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Skin Care Cleansing Oil",
+        "brand": "Mario Badescu",
+        "price": 16,
+        "type": "cleanser",
+        "treatment": "facial",
+        "skin": ["normal", "dry", "combination", "oily"],
+        "other": ["fragrance-free"],
+        "img": "img/mario.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Green Labs Pinea-C Brightening Gel Wash",
+        "brand": "Garnier",
+        "price": 10,
+        "type": "cleanser",
+        "treatment": "facial",
+        "skin": ["normal", "dry", "combination", "oily"],
+        "other": [ "vegan", "cruelty-free"],
+        "img": "img/garnier.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Cleansing Mask Bar",
+        "brand": "Freeman Beauty",
+        "price": 5,
+        "type": "cleanser",
+        "treatment": "facial",
+        "skin": ["dry", "combination", "oily", "normal"],
+        "other": [ "paraben-free", "vegan"],
+        "img": "img/freeman.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Balancing Cleanser",
+        "brand": "Alpha-H",
+        "price": 36,
+        "type": "cleanser",
+        "treatment": "facial",
+        "skin": ["dry", "combination", "normal"],
+        "other": [ "cruelty-free", "vegan"],
+        "img": "img/alpha.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "I'm Rice Exfoliating Enzyme Cleanser",
+        "brand": "Tonymoly",
+        "price": 13,
+        "type": "cleanser",
+        "treatment": "facial",
+        "skin": ["normal", "dry", "combination", "oily"],
+        "other": [ "vegan", "paraben-free"],
+        "img": "img/tonymoly.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Take the Day Off Cleansing Balm",
+        "brand": "Clinique",
+        "price": 34,
+        "type": "cleanser",
+        "treatment": "facial",
+        "skin": ["normal", "dry", "combination", "oily"],
+        "other": ["vegan", "hypoallergenic"],
+        "img": "img/clinique.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Well Yes! Healthy Glow Multivitamin Scrub",
+        "brand": "Bliss",
+        "price": 8,
+        "type": "cleanser",
+        "treatment": "facial",
+        "skin": ["normal", "dry", "combination", "oily"],
+        "other": [ "vegan", "fragrance-free"],
+        "img": "img/bliss.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "Vitamin C Glow Toner",
+        "brand": "No7 Radiance+",
+        "price": 15,
+        "type": "toner",
+        "treatment": "facial",
+        "skin": ["normal", "dry", "combination", "oily"],
+        "other": ["paraben-free"],
+        "img": "img/no7.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "Youth Enhancing Serum Mist with Black Tea",
+        "brand": "Innisfree",
+        "price": 23,
+        "type": "moisturizer",
+        "treatment": "facial",
+        "skin": ["normal", "dry", "combination", "oily", "mature"],
+        "other": ["hypoallergenic"],
+        "img": "img/innisfree.jpeg"
+    },
+    {
+        "id": 12,
+        "name": "C E Ferulic Serum",
+        "brand": "SkinCeuticals",
+        "price": 166,
+        "type": "serum",
+        "treatment": "facial",
+        "skin": ["dry", "combination", "normal", "mature"],
+        "other": ["paraben-free"],
+        "img": "img/skinceuticals.jpeg"
+    }
+]
