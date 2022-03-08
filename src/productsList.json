@@ -7,7 +7,7 @@
         "type": "suncare",
         "treatment": "facial",
         "skin": ["dry", "combination", "mature"],
-        "other": ["paraben-free", "fragrance-free"],
+        "other": ["fragrance-free"],
         "img": "img/mele.jpeg"
     },
     {
@@ -51,7 +51,7 @@
         "type": "cleanser",
         "treatment": "facial",
         "skin": ["dry", "combination", "oily", "normal"],
-        "other": [ "paraben-free", "vegan"],
+        "other": [ "paraben-free"],
         "img": "img/freeman.jpeg"
     },
     {

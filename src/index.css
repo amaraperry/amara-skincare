@@ -13,6 +13,17 @@
   color: #d68c45;
 }
 
+.sorry {
+  text-align: center;
+  margin: 2rem;
+  color: #d68c45;
+  font-style: italic;
+}
+
+.card-footer {
+  font-size: 10px;
+}
+
 body {
   font-family: "Lora", serif;
 }
@@ -411,7 +422,7 @@ footer {
 }
 
 .badge {
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .page-header {
@@ -514,7 +525,7 @@ footer {
 }
 
 .badge {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .page-header {

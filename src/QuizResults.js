@@ -11,7 +11,7 @@ export function EachProduct(props) {
         <div className="col-md-3 d-flex mt-3" >
             <div className="card">
                 <div className="card-body">
-                    <h3 class="routine-step fst-italic">Pick {props.key}</h3>
+                    <h3 className="routine-step fst-italic">Pick {props.key}</h3>
                     <img src={props.card.img} className="card-img-top" alt={props.card.name} />
                     <h2 className="card-text-brand">{props.card.brand}</h2>
                     <p className="card-text-title">{props.card.name}</p>

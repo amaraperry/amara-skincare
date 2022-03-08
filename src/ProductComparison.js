@@ -21,7 +21,7 @@ export function TableHeader() {
             </th>
             <th className="align-top" scope="col">
                 <div>
-                    <input class="form-control" list="datalistOptions1"
+                    <input className="form-control" list="datalistOptions1"
                         placeholder="Fresh Lotus Youth Preserve Moisturizer"></input>
                     <datalist id="datalistOptions1">
                         <option value="Fresh Lotus Youth Preserve Eye Cream"></option>
@@ -34,7 +34,7 @@ export function TableHeader() {
             </th>
             <th className="align-top" scope="col">
                 <div>
-                    <input class="form-control" list="datalistOptions2"
+                    <input className="form-control" list="datalistOptions2"
                         placeholder="The Inkey List Retinol Anti-Aging Serum"></input>
                     <datalist id="datalistOptions2">
                         <option value="The Inkey List Retinol Anti-Aging Serum"></option>

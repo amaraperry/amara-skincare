@@ -4,7 +4,7 @@ import _ from 'lodash';
 
 
 // takes in entire props.data as props.data
-export function SortFilter(props) {
+export function SortFilterForm(props) {
 
     const [valueSelected, setValueSelected] = useState("");
 
@@ -45,7 +45,7 @@ export function SortFilter(props) {
         let typeCheckbox = array.map((item, index) => {
             return (
                 <div className="form-check" key={index}>
-                    <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <input className="form-check-input" onChange={props.handleCheckbox} name={item} type="checkbox" checked={props.filterOptions[item]} id="flexCheckDefault" />
                     <label className="form-check-label" htmlFor={item}>
                         {item}
                     </label>
@@ -54,6 +54,22 @@ export function SortFilter(props) {
         })
         return typeCheckbox
     }
+
+    let radioforEach = (array) => {
+        let radioCheckbox = array.map((item, index) => {
+            return (
+                <div className="form-check" key={index}>
+                    <input className="form-check-input" onChange={props.handleCheckbox} name="radio" type="radio" checked={props.filterOptions[item]} id={item} />
+                    <label className="form-check-label" htmlFor={item}>
+                        {item}
+                    </label>
+                </div>
+            )
+        })
+        return radioCheckbox
+    }
+
+
 
     return (
         <div>
@@ -74,7 +90,7 @@ export function SortFilter(props) {
                         <div className="check-container">
                         <div className="one-checkbox col-md-4">
                             {categoryTitleArray[0]}
-                            {checkboxforEach(uniqueType)}
+                            {radioforEach(uniqueType)}
                         </div>
                         <div className="one-checkbox col-md-4">
                             {categoryTitleArray[1]}
@@ -85,7 +101,7 @@ export function SortFilter(props) {
                             {checkboxforEach(uniqueOther)}
                         </div>
                         </div>
-                        <button className="btn btn-outline-dark btn-sm submit">Submit</button>
+                        <button onClick={props.applyFilterCallback} className="btn btn-outline-dark btn-sm submit">Submit</button>
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>

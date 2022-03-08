@@ -91,18 +91,18 @@ export function Main () {
 
     return (
         <main>
-            <div class="container row HP-main">
+            <div className="container row HP-main">
     
                 {/* first step */}
-                <div class="paddings">
+                <div className="paddings">
         
                     <h2>Step 1</h2>
-                    <div class="row d-flex">
-                        <div class="col-lg-6">
-                            <img class="homepage-img" src="/img/quiz.jpeg" alt="quiz image" />
+                    <div className="row d-flex">
+                        <div className="col-lg-6">
+                            <img className="homepage-img" src="/img/quiz.jpeg" alt="quiz image" />
                         </div>
             
-                        <div class="col-lg-6">
+                        <div className="col-lg-6">
                             <h3>Take self-assessment<a class="homepage-a" href="../project-skincare-proposal/quiz.html"> quiz</a></h3>
                             <h3>to identify your skin condition.</h3>
                             <p>A thorough skin assessment gives you important information about potentially serious diseases, especially
@@ -113,19 +113,19 @@ export function Main () {
                 </div>
         
                 {/* second step */}
-                <div class="paddings">
+                <div className="paddings">
                     <h2>Step 2</h2>
-                    <div class="row d-flex">
-                        <div class="col-lg-6">
-                            <h3><a class="homepage-a" href="../project-skincare-proposal/products.html">Search</a> for suitable products.</h3>
+                    <div className="row d-flex">
+                        <div className="col-lg-6">
+                            <h3><a className="homepage-a" href="../project-skincare-proposal/products.html">Search</a> for suitable products.</h3>
                             <p>Choose According To Your Skin. You can only seek out the best skin care products if you know your skin
                             type. Thus, figuring out whether you have a normal, dry, oily, or sensitive skin is the first step on your
                             journey of revamping your skincare regime. Then, use our tool to find out which product is best for you.
                             </p>
                         </div>
             
-                        <div class="col-lg-6">
-                            <img class="homepage-img" src="/img/search.png" alt="a couple Allure 2021 winner products" />
+                        <div className="col-lg-6">
+                            <img className="homepage-img" src="/img/search.png" alt="a couple Allure 2021 winner products" />
                         </div>
                     </div>
                 </div>
@@ -133,16 +133,16 @@ export function Main () {
         
         
                 {/* third step */}
-                <div class="paddings">
+                <div className="paddings">
         
-                    <h2 class="pb-3">Step 3</h2>
-                    <div class="row d-flex">
-                        <div class="col-lg-6">
-                            <img class="homepage-img" src="/img/compare.png" alt="product comparison table" />
+                    <h2 className="pb-3">Step 3</h2>
+                    <div className="row d-flex">
+                        <div className="col-lg-6">
+                            <img className="homepage-img" src="/img/compare.png" alt="product comparison table" />
                         </div>
-                        <div class="col-lg-6">
+                        <div className="col-lg-6">
             
-                            <h3><a class="homepage-a" href="../project-skincare-proposal/productcompare.html">Compare</a> the suggested products</h3>
+                            <h3><a className="homepage-a" href="../project-skincare-proposal/productcompare.html">Compare</a> the suggested products</h3>
                             <h3>to identify your skin conditions.</h3>
                             <p>Try to find different products for yourself. Comparison tool helps you learn directly about the
                             differnces among products. Even if you are just looking to slow aging or alleviate dry skin, you could
